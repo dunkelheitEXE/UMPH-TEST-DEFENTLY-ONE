@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\css\style.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="barr">
+        <ul class="bar-menu">
+            <li>Menu</li>
+            <li>Elemento</li>
+            <li>Elemento</li>
+        </ul>
+    </div>
+    <div class="father">
+        <div class="container">
+            <div class="title">
+                <h1>ChatBot: </h1>
+            </div>
+            <div class="display">
+                <h4 id="user">User: {{ data.usermess }}</h4>
+                <h4 id="bot">Bot: {{ data.response }}</h4>
+            </div>
+            <div class="inputs">
+                <form action="/" method="post">
+                    <input id="mess" type="text" name="message">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
