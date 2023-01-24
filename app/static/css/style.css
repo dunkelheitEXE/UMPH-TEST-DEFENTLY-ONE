@@ -12,9 +12,11 @@
     display: inline-block;
     margin-top: 5%;
     width: 50%;
-    height: 400px;
+    height: 450px;
     background: linear-gradient(gray, rgb(88, 88, 88), purple);
     border-radius: 20px;
+    min-width: 370px;
+    min-height: 450px;
 }
 
 .title {
@@ -26,6 +28,7 @@
     width: 60%;
     height: 250px;
     background-color: antiquewhite;
+    overflow-y: scroll;
 }
 
 .inputs {
