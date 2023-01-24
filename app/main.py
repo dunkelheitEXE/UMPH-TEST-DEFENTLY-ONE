@@ -6,7 +6,7 @@ from chatterbot.trainers import ListTrainer
 
 bot = ChatBot('UPMH-V6')
 words = [
-    "Hola", "Hola, usuario!",
+    "Hola", "Hola! ¿Como puedo ayudarte?",
     "Me siento mal", "Contamos con una enfermeria en el edificio LT1",
     "Necesito ayuda emocional", "Puedes acudir con tus orientadores en su respectivo edificio",
     #Becas
@@ -23,7 +23,7 @@ words = [
     #Biblioteca
     "¿Tenemos biblioteca virtual?","No por el momento no se cuante con biblioteca virtual pero la escuela cuenta con convenios con paginas que te pueden ser utiles las cuale puedes encontrar en el siguiente link: https://www.upmetropolitana.edu.mx/centro-informacion/bibliotecas-digitales",
     "¿Es de libre acceso?","Si, el acceso es libre, solo ocupas tu credencial de estudiante de la UPMH ",
-    "¿Cual es el proceso de registro para la biblioteca?","NR",
+    "¿Cual es el proceso de registro para la biblioteca?","Para ingresar a la biblioteca solo necesitas tu credencial que será escaneada para macar tu entrada  salida",
     #Servicios medicos
     "¿Puedo tener una consulta en servicio medico?","NR",
     "¿Donde se encuentra serivicio medico?","NR",
