@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(180, 66, 180), rgb(139, 49, 139), rgb(107, 55, 107));
 }
 
 .father {
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .container {
@@ -17,6 +24,7 @@
     border-radius: 20px;
     min-width: 370px;
     min-height: 450px;
+    box-shadow: 7px 7px 15px;
 }
 
 .title {
@@ -27,7 +35,7 @@
     margin: 0 auto;
     width: 60%;
     height: 250px;
-    background-color: antiquewhite;
+    background-color: white;
     overflow-y: scroll;
 }
 
@@ -48,19 +56,50 @@
 
 #user {
     text-align: right;
+    padding-right: 15px;
 }
 
 #bot {
     text-align: left;
+    padding-left: 15px;
 }
 
+.display img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#userimg {
+    text-align: right;
+}
+
+#botimg {
+    text-align: left;
+}
 /* MENU BAR */
+
+.barr {
+    /*background: linear-gradient(rgb(151, 8, 151), rgb(99, 14, 99), rgb(75, 28, 75), rgb(48, 27, 48));*/
+    background-color: white;
+    padding: 25px;
+}
 
 .bar-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 .bar-menu li {
     list-style: none;
+    line-height: 50px;
+    font-size: 25px;
+    margin-right: 220px;
+}
+
+#logoU {
+    min-width: 50px;
+    min-height: 50px;
+    width: 70px;
+    height: 70px;
 }

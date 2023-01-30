@@ -10,9 +10,9 @@
 <body>
     <div class="barr">
         <ul class="bar-menu">
-            <li>Menu</li>
-            <li>Elemento</li>
-            <li>Elemento</li>
+            <li><img id="logoU" src="https://imgs.search.brave.com/EK5GaEbBXZDCgnanCRMfgiZPCa_W6KtLEdBuB_Gg1kM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9tZWRp/YS1leHAxLmxpY2Ru/LmNvbS9kbXMvaW1h/Z2UvQzREMEJBUUhN/UnN0NmdXWktoUS9j/b21wYW55LWxvZ29f/MjAwXzIwMC8wP2U9/MjE1OTAyNDQwMCZ2/PWJldGEmdD16eU02/MTRBTGw2RmJucWl6/YU1Pbjl4Y2NSRjJk/MjZ3THRGQTJCZGNM/VVNj" alt=""></li>
+            <li>Chatbot</li>
+            <li>Version 0.1</li>
         </ul>
     </div>
     <div class="father">
@@ -21,9 +21,9 @@
                 <h1>ChatBot: </h1>
             </div>
             <div class="display">
-                <h4 id="user">User: {{ data.usermess }}</h4>
+                <div id="userimg"><img src="https://cdn.discordapp.com/attachments/1041849606658601073/1068216015214882907/DALLE_2023-01-26_11.09.25.png" alt=""></div><div id="user">{{ data.usermess }}</div>
                 <br>
-                <h4 id="bot">Bot: {{ data.response }}</h4>
+                <div id="botimg"><img src="https://cdn.discordapp.com/attachments/1041849606658601073/1068213777046188032/image.png" alt=""></div><div id="bot">{{ data.response }}</div>
             </div>
             <div class="inputs">
                 <form action="/" method="post">

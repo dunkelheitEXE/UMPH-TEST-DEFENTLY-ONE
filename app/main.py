@@ -7,10 +7,16 @@ from chatterbot.trainers import ListTrainer
 bot = ChatBot('UPMH-V6')
 words = [
     "Hola", "Hola! ¿Como puedo ayudarte?",
-    "Me siento mal", "Contamos con una enfermeria en el edificio LT1",
-    "Necesito ayuda emocional", "Puedes acudir con tus orientadores en su respectivo edificio",
+    "Me siento mal", "Contamos con una enfermeria en el edificio LT1. En este edifico podras encontrar al enfermero o enfermera que podra atender tu malestar o recetarte algo para atenderlo lo mas pronto posible. ¿O te refieres mas a un malestar emocional?",
+    "Mal emocionalmente", "Puedes acudir con tus orientadores en su respectivo edificio. Puedes consultar en metronet quien es tu orientador de turno, ademas de que en cada cuatrimestre, este se presentara y te brindara la información y apoyo que necesites al respecto",
+    "Necesito ayuda emocional", "Puedes acudir con tus orientadores en su respectivo edificio. Puedes consultar en metronet quien es tu orientador de turno, ademas de que en cada cuatrimestre, este se presentara y te brindara la información y apoyo que necesites al respecto",
+    # Preguntas informales
+    "¿Que eres?", "Soy una IA en camino de desarrollo. Mis creadores, unos estudiantes con buen potencial, de han hecho de herramientas, estudio e información para crearme. A pesar de ello, y como se puede ver, soy capaz de responder a ciertas preguntas. En breves palabras, estoy aqui para ayudarte con lo que necesites",
+    "Hablame de ti", "Soy una IA en camino de desarrollo. Mis creadores, unos estudiantes con buen potencial, de han hecho de herramientas, estudio e información para crearme. A pesar de ello, y como se puede ver, soy capaz de responder a ciertas preguntas o consultas, pues podria responderte de muchas maneras aunque aun estoy en desarrollo. En breves palabras, estoy aqui para ayudarte con lo que necesites",
+    # Preguntas sobre la Institución ---
+    "¿Que es la UPMH?", "La Universidad Politecnica Metropolitan de Hidalgo, es una escuela hubicada en el municipio de Tolcayuca, dentro del estado de Hidalgo, en México, pais de norteamerica. La Universidad Politécnica Metropolitana de Hidalgo con base en el Decreto de Creación emitido por el Ejecutivo del Estado de Hidalgo, de fecha del 17 de noviembre de 2008 opera como Organismo Descentralizado de la Administración Pública del Estado de Hidalgo, con personalidad jurídica y patrimonio propio, teniendo como objeto impartir educación superior en los niveles de licenciatura, ingeniería, especialización tecnológica y otros estudios de posgrado, así como cursos de actualización en sus diversas modalidades, para preparar profesionales con una sólida formación científica, tecnológica y en valores cívicos y éticos, conscientes del contexto nacional en lo económico, político y social; Llevar a cabo investigación aplicada y desarrollo tecnológico, pertinentes para el desarrollo económico y social de la región, del Estado y de la Nación; Difundir el conocimiento de la cultura a través de la extensión universitaria y la formación a lo largo de toda la vida; Prestar servicios tecnológicos y de asesoría, que contribuyan a mejorar el desempeño de las empresas y otras organizaciones de la región y del Estado principalmente; Impartir programas de educación continua con orientación a la capacitación para el trabajo y al fomento a la cultura tecnológica de la región, en el Estado y en el País.\nFuente. Decreto de creación UPMH",
     #Becas
-    "¿Como puedo saber sobre becas", "Puedes acudir al edificio UD1 con la Lic. Elisa Acuña",
+    "¿Como puedo saber sobre becas", "Puedes acudir al edificio UD1 con la Lic. Elisa Acuña. Ella podra ayudarte a atender tus dudas respecto a cualquier beca de forma presencial. Por otro lado, yo podria ayudarte tambien. Preguntame lo que quieras.",
     "¿Que becas de movilidad hay?","Solo hay una beca de movilidad esta dirigida a estudiantes de escasos recursos, que no cuenten con ningún otro apoyo en efectivo o en especie y que colaboren en un servicio administrativo u operativo dentro de la Universidad.",
     "¿Por que no hay respuesta de jovenes escribiendo el futuro?","El encargados de la beca 'Jovenes Escribiendo El futuro' es gobierno del estado, no la universidad ",
     "¿Cuando son las fechas para las proximas becas?","Para la beca benito juarez podrar realizar el registro hasta el  de Diciembre del 2022,ingresa al sistema de citas. para mas informacion visita: ",
@@ -83,11 +89,13 @@ def index():
     # DATA --- (Dictionary)
     data = {
         'usermess': usermess,
-        'response': response
+        'response': response,
+
     }
     
     return render_template("index.html", data=data)
     #return render_template('hoja.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
