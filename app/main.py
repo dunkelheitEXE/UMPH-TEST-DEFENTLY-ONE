@@ -64,12 +64,21 @@ words = [
     #Otros
     "¿El examen iTEP funciona para titulacion?","NR",
     "¿Cuando estara dispnible el gym?","NR",
-    "","",
-    "","",
-    "","",
-    "","",
-    "","",
-]
+    #Objetivos de las Ingenerias
+    "¿Cual es la oferta decativa de la UPMH?","La UPMH cuenta con 5 ingenerias('Aeronatica', 'Animación y Efectos Visuales', 'Energia', 'Logísica y Trasporte' y por ultimo 'Tecnologías de la Información'), 3 Licenciauras ('Administracion y Gestón Empresarial', 'Arquitectura Bioclimática' asi como tambien 'Comercio internacional y Aduadas') y 3 Maestrias ('Comercio y Loística internacional', 'Ingenería Aeroespacial' e 'Inteligencia Artificial')",
+    "Hablame sobre Ingeneria en Aeronautica","El bjetivo es formar profesionistas capaces de desempeñarse eficientemente en la investigación, diseño, construcción, instalación, mantenimiento, administración de sistemas y componentes de aeronaves, así como en la administración de la infraestructura de soporte para la operación de empresas del sector aeronáutico, siendo capaces de incorporarse a los procesos productivos de la industria en general.",
+    "Hablame sobre Ingeneria en animacion y Efectos Visuales","El objetivo es formar profesionales conscientes de su responsabilidad ética y social, competentes para la creación, desarrollo y evaluación de soluciones tecnológicas en elramo del arte digital y la animación, que transfiera información audiovisual en sectores como la ciencia, la medicina, la educación, el entretenimiento y la publicidad.",
+    "Hablame sobre Ingeneria en Energia","El objetivo es formar ingenieras e ingenieros que favorezcan el bienestar y el crecimiento económico de la sociedad y de las organizaciones, a través del ahorro y uso eficiente de la energía, con capacidad para diseñar e implementar procesos y tecnologías de vanguardia, que utilizan racionalmente los recursos naturales para la generación de electricidad, sistemas térmicos y biocombustibles, que contribuyan al desarrollo sostenible de la región y del país.",
+    "Hablame sobre Ingeneria en Logística y trasporte","El objetivo es formar profesionales que sean capaces de diagnosticar, planear, diseñar y optimizar soluciones integrales de ingeniería a las problemáticas de los sistemas logísticos y de transporte de las organizaciones.",
+    "Hablame sobre Ingeneria en Tecnologías de la información","El objetivo es formar profesionales conscientes de su responsabilidad ética y social, competentes para el análisis de necesidades tecnológicas en las organizaciones, y el diseño, desarrollo e implementación de soluciones basadas en el uso de las TIC en las nuevas tendencias que se requieren en la actualidad como la Industria 4.0"
+    #Objetivos de las licenciaturas
+    "Hablame sobre la Licenciatura en Administración y Gestión Empresarial",
+    ""
+    "",""
+    "",""
+    "",""
+    #Objetivos de las mestrias
+    ]
 #sdsa
 
 trainer = ListTrainer(bot)
