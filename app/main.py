@@ -80,6 +80,7 @@ words = [
     "Hablame sobre la Maestría en Comercio y Logística Internacional","Busca desarrollar profesionales que entiendan la complejidad de la globalización, para mejorar el intercambio comercial de México, atendiendo las necesidades de las empresas para su internacionalización, fortaleciendo la distribución de las mercancías y el cumplimiento del marco regulatorio de la materia."
     "Hablame sobre la Maestría en Ingeniería Aeroespacial","Tiene como objetivo general el especializar eficientemente a profesionistas en el ámbito académico e industrial nacional e internacional en materia aeroespacial, a fin del cumplimiento de dicho objetivo la especialización consta de dos áreas fundamentales también llamadas como Líneas de Generación y Aplicación del Conocimiento"
     "Hablame sobre la Maestría en Inteligencia Artificial","Busca formar profesionales en la implementación de técnicas, métodos y algoritmos de inteligencia artificial orientados la optimización y automatización de procesos aplicados tanto a la ingeniería, como al análisis de datos e inteligencia de negocios."
+    
     ]
 #sdsa
 
