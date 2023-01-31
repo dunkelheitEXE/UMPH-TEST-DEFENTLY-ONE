@@ -89,25 +89,41 @@ trainer.train(words)
 
 # --- FIN BOT PART ---
 
+def initialMes(firs):
+    res = bot.get_response(firs)
+    return res
 
 app = Flask(__name__)
-
 @app.route('/', methods=["GET", "POST"])
 def index():
-    usermess = request.form.get("message")
-    response = bot.get_response(usermess)
+
+    try:
+        usermess = request.form.get("message")
+        response = bot.get_response(usermess)
 
 
-    # DATA --- (Dictionary)
-    data = {
-        'usermess': usermess,
-        'response': response,
+        # DATA --- (Dictionary)
+        data = {
+            'usermess': usermess,
+            'response': response,
 
-    }
-    
-    return render_template("index.html", data=data)
-    #return render_template('hoja.html')
+        }
+        
+        return render_template("index.html", data=data)
+        #return render_template('hoja.html')
+    except ChatBot.ChatBotException:
+        usermess = "Hola"
+        response = bot.get_response(usermess)
 
+
+        # DATA --- (Dictionary)
+        data = {
+            'usermess': usermess,
+            'response': response,
+
+        }
+
+        return render_template("index.html", data=data)
 
 if __name__ == '__main__':
     app.run(debug=True)
