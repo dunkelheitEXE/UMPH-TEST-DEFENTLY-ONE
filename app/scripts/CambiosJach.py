@@ -81,4 +81,4 @@
 "¿tiene algun costo?","si, el costo es de 122.41 pesos,cuando es un certificado parcial de estudios y si necesitas un duplicado de tu certificado son 245.86 pesos.",
 "¿necesito mas informacion para este tramite?","Si necesitas mas informacion puedes encontrarla en la pagina ofical en el apartado de estudiantes.",
 "","",
-
+"","",
