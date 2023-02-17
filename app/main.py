@@ -7,11 +7,13 @@ from chatterbot.trainers import ListTrainer
 bot = ChatBot('UPMH-V6')
 words = [
     "hola", "Hola! ¿Como puedo ayudarte?",
+    "Hola", "¡Hola, usuario!",
     # constancia de estudio
     "¿como puedo sacar una constancia de estudios?", "Para poder sacar tu constancia de estudios, debes dirigirte a metronet. Una vez hayas ingresado, dirigete a la seccion de caja en el menu del lateral izquierdo. Se desplegara un submenu con las opciones 'PAGOS', 'ADEUDOS' y 'RESUMEN DE PAGOS', deberas seleccionar la seccion de 'PAGOS'. Una vez ahi, debes presionar sobre 'CONSTANCIA ESCOLAR' y en la ventana emergente, presionar en 'Continuar'. Es importante que te asegures de cumplir con los requisitos para el adeudo antes de generar la referencia bancaria.",
     "¿cual es el precio de una constancia de estudios?", "Su precio es de $37.35",
     # Ayuda de psicologica y fisica(malestares)
     "me siento mal", "Contamos con una enfermeria en el edificio LT1. En este edifico podras encontrar al enfermero o enfermera que podra atender tu malestar o recetarte algo para atenderlo lo mas pronto posible. ¿O te refieres mas a un malestar emocional?",
+    "Me siento mal", "Contamos con una enfermeria en el edificio LT1. En este edifico podras encontrar al enfermero o enfermera que podra atender tu malestar o recetarte algo para atenderlo lo mas pronto posible. ¿O te refieres mas a un malestar emocional?",
     "¿a donde puedo ir si me siento mal?", "Contamos con una enfermeria en el edificio LT1. En este edifico podras encontrar al enfermero o enfermera que podra atender tu malestar o recetarte algo para atenderlo lo mas pronto posible. ¿O te refieres mas a un malestar emocional?", 
     "mal emocionalmente", "Puedes acudir con el psicologo escolar, en el departamento de psicología, en la planta alta del edificio UD2. El/la psicologo/psicologa de turno te atendera. No guardes aquello que te aqueja, habla con tus amigos, familia y busca ayuda, noestas solo/sola c;\nEste es el correo para agendar una cita con el/la psicologo/psicologa de la universidad: lamartinez@upmh.edu.mx",
     "necesito ayuda emocional", "Puedes acudir con el psicologo escolar, en el departamento de psicología, en la planta alta del edificio UD2. El/la psicologo/psicologa de turno te atendera. No guardes aquello que te aqueja, habla con tus amigos, familia y busca ayuda, noestas solo/sola c;\nEste es el correo para agendar una cita con el/la psicologo/psicologa de la universidad: lamartinez@upmh.edu.mx",
@@ -73,7 +75,7 @@ words = [
     "¿El examen iTEP funciona para titulacion?","NR",
     "¿Cuando estara dispnible el gym?","NR",
     #Objetivos de las Ingenerias
-    "¿Cual es la oferta decativa de la UPMH?","La UPMH cuenta con 5 ingenerias('Aeronatica', 'Animación y Efectos Visuales', 'Energia', 'Logísica y Trasporte' y por ultimo 'Tecnologías de la Información'), 3 Licenciauras ('Administracion y Gestón Empresarial', 'Arquitectura Bioclimática' asi como tambien 'Comercio internacional y Aduadas') y 3 Maestrias ('Comercio y Loística internacional', 'Ingenería Aeroespacial' e 'Inteligencia Artificial')",
+    "¿Cual es la oferta educativa de la UPMH?","La UPMH cuenta con 5 ingenerias('Aeronatica', 'Animación y Efectos Visuales', 'Energia', 'Logísica y Trasporte' y por ultimo 'Tecnologías de la Información'), 3 Licenciauras ('Administracion y Gestón Empresarial', 'Arquitectura Bioclimática' asi como tambien 'Comercio internacional y Aduadas') y 3 Maestrias ('Comercio y Loística internacional', 'Ingenería Aeroespacial' e 'Inteligencia Artificial')",
     "Hablame sobre Ingeneria en Aeronautica","El bjetivo es formar profesionistas capaces de desempeñarse eficientemente en la investigación, diseño, construcción, instalación, mantenimiento, administración de sistemas y componentes de aeronaves, así como en la administración de la infraestructura de soporte para la operación de empresas del sector aeronáutico, siendo capaces de incorporarse a los procesos productivos de la industria en general.",
     "Hablame sobre Ingeneria en animacion y Efectos Visuales","El objetivo es formar profesionales conscientes de su responsabilidad ética y social, competentes para la creación, desarrollo y evaluación de soluciones tecnológicas en elramo del arte digital y la animación, que transfiera información audiovisual en sectores como la ciencia, la medicina, la educación, el entretenimiento y la publicidad.",
     "Hablame sobre Ingeneria en Energia","El objetivo es formar ingenieras e ingenieros que favorezcan el bienestar y el crecimiento económico de la sociedad y de las organizaciones, a través del ahorro y uso eficiente de la energía, con capacidad para diseñar e implementar procesos y tecnologías de vanguardia, que utilizan racionalmente los recursos naturales para la generación de electricidad, sistemas térmicos y biocombustibles, que contribuyan al desarrollo sostenible de la región y del país.",
@@ -218,7 +220,7 @@ def index():
         return render_template("index.html", data=data)
         #return render_template('hoja.html')
     except ChatBot.ChatBotException:
-        usermess = "Hola"
+        usermess = "hola"
         response = bot.get_response(usermess)
 
 
