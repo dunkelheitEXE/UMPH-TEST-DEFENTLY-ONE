@@ -2,7 +2,6 @@
 #Reglamento de Estudiantes
 "Hablame sobre el reglamento de estudiantes", "Mira esta es una universidad seria por lo cual tiene que tener un reglamento.",
 "¿Donde se encuentra el reglamento de la escuela?","El reglamento de la escuela esta en la pagina oficial de la escuela en el apartado de estudiantes.",
-"","",
 #infomacion de Becas
 "¿Como puedo saber sobre becas", "Puedes acudir al edificio UD1 con la Lic. Elisa Acuña. Ella podra ayudarte a atender tus dudas respecto a cualquier beca de forma presencial. Por otro lado, yo podria ayudarte tambien. Preguntame lo que quieras.",
 "¿Que becas de movilidad hay?","Solo hay una beca de movilidad esta dirigida a estudiantes de escasos recursos, que no cuenten con ningún otro apoyo en efectivo o en especie y que colaboren en un servicio administrativo u operativo dentro de la Universidad.","¿Por que no hay respuesta de jovenes escribiendo el futuro?","El encargados de la beca 'Jovenes Escribiendo El futuro' es gobierno del estado, no la universidad.",
@@ -13,7 +12,6 @@
 "¿Como saber si soy beneficiario a una beca?","Pudes corroborar tu alta en el apartado de 'Becas' en Metronet.",
 "¿Cuales son las fechas de los resultados de la beca?","Cada convocatoria tiene diferentes fechas, puedes consutalr esta informacion en http://www.upmh.edu.mx/.",
 "¿Que pasa si mi beca fue rechazada?","Lo sentimos mucho. Puedes intentarlo la proxima vez en las proximas fechas.",
-"","",
 #Centro de Informacion
 "¿Que es el Centro de Informacion?","Es un apartado en la pagina oficial de la universidad en donde encontraras infomacion valiosa",
 "¿Cuales es la Mision del Centro de Informacion?","Ofrecer servicios de información actuales, eficientes y oportunos, así como proporcionar recursos y servicios documentales pertinentes, suficientes y de calidad para apoyar las actividades formativas y de actualización de la enseñanza, investigación y difusión de la cultura de las y los estudiantes, maestras/os y personal de apoyo a la docencia. Estos servicios se ofrecen prioritariamente a la comunidad UPMH, y extensivamente, al público en general, en el marco de los principios, los valores y los fines de ésta, conforme a las posibilidades y límites que le impone su naturaleza de biblioteca universitaria.",
@@ -28,57 +26,44 @@
 "¿Cual es el catalogo en linea?","Es una parte inmportante de la pagina",
 "¿Cual es el boletin de nuevas adquisiciones","Es el catalogo que representa cuales libros hay en existencia."
 "¿La escuela cuenta con biblioteca digital?","No, pero en el apartado de Centro de Informacion se encuentra el apartado biblioteca digital ahi estan las bilbiotecas digitales que tienen muy buena informacion.",
-"","",
 #Buzon SQR
 "Buzon de sugerencias", "Sabias que en la universidad cuenta con un buzon de sugerencias y quejas.",
 "¿Donde esta el buzon SQR?", "El buzon SQR esta en la pagina oficial de la escuela en el apartado de estudiantes.",
 "Hola", "Hola! ¿Como puedo ayudarte?",
-"","",
 #Bolsa de Trabajo
 "¿Existe una bolsa de trabajo para estudiantes?","Si, se encuentra en la parte de estudiantes ahi esta una lista que se actualiza para que puedas checarla cuando puedas.",
-"","",
 #Calendario Escolar
 "¿En donde puedo encontrar el Calendario Escolar?","Se encuentra en el apartado de la pagina de la escuela en estudiantes ahi esta desglozado y se encuentra el Calendario Escolar.",
-"","",
 #Internalizacion
 "¿Cual es el objetivo de internalizacion","Establecer mecanismos de cooperación con instituciones de educación superior nacionales e internacionales, con la finalidad de generar sinergias que permitan promover la movilidad académica de estudiantes, docentes y personal administrativo.",
 "¿Se necesita ser estudiante regular para poder aplicar a la internalizacion?","Claro que si es importante ser almnno regular.",
 "¿Se necesita tener un promedio para poder aplicar a la internalizacion?","Claro que si, se nesecita contar con un promedio general mínimo de 8.0",
 "¿Se necesita tener un pasaporte para poder aplicar a la internalizacion?","Si es importante contar con uno y que este vigente.",
 "¿Existen otras cosas mas que requiera el proceso?","Si, es un poco complicado explicarlo aqui pero en la pagina oficial de la escuela en el apartado de estudiantes puedes encontrar infomacion mas detallada sobre el proceso",
-"","",
 #Proceso de Reiscripcion
 "Existe un apartado en donde este el preceso de reinscripcion","Claro se encuentra en la Pagina oficial en el Apartado de estudiantes.",
 #Manual de Metronet 
 "¿Que es Metronet?","Es un sistema interno excolar en el cual el estudiante puede checar sus calificaciones y otras cosas mas relacionadas a la trayectoria escolar.",
 "¿Donde se puede buscar mas informacion sobre metronet?","La puedes encontrar en la pagina oficial en el apartado de estudiantes.",
-"","",
 #Titulacion 
 "¿Cual es el proceso de titulacion?","Gracias por la pregunta, la informacion se encuentra en la pagina oficial en el apartado de estudiantes.",
 "¿Cual es el costo de la titulacion?","El costo es de 1,667.11 pesos mas 7.00 pesos de la comision bancaria si nesecitas mas informacion cosulta el apartado de estudiantes que esta en la pagina oficial de la escuela.",
 "¿Cual es el costo de la Cedula Profecional?","El costo es de 1,508.00 pesos si nesecitas mas informacion cosulta el apartado de estudiantes que esta en la pagina oficial de la escuela.",
-"","",
 #Credencial Escolar 
 "¿que pasa si perdi mi credencial","No te preocupes en la pagina de la escuela en el apartado de estudiantes puedes encontrar la infomacion mas detallada y mas completa.",
 "¿tiene algun costo?","Si, el costo es de 73.76 pesos.",
-"","",
 #Historal academico 
 "¿existe un apartado donde pueda encontrar mi historial academico?","Claro, se encuentra en el apartado de estudiantes en la pagina oficial de la escuela.",
 "¿tiene algun costo?","si, el costo es de 37.35 pesos.",
-"","",
 #Consatancia de estudios
 "¿como puedo sacar una constancia de estudios?","La puedes tramitar en el apartado de estudiantes en la pagina oficial de la escuela.",
 "tiene algun costo","si, el costo es de 37.35 pesos.",
 "¿necesito mas informacion para este tramite?","Si necesitas mas informacion puedes encontrarla en la pagina ofical en el apartado de estudiantes.",
-"","",
 #Equivalencia de estudios 
 "¿existe una forma en la que yo puedo sacar la equivalencia de estudios?","si lo puedes tramitar en el apartado de estudiantes en la pagina oficial de la escuela.",
 "¿tiene algun costo?","si, el costo es de 61.21 pesos.",
 "¿necesito mas informacion para este tramite?","Si necesitas mas informacion puedes encontrarla en la pagina ofical en el apartado de estudiantes.",
-"","",
 #Certificado de estudios
 "¿existe una forma en la que yo puedo sacar un certificado de estudios?","si lo puedes tramitar en el apartado de estudiantes en la pagina oficial de la escuela.",
 "¿tiene algun costo?","si, el costo es de 122.41 pesos,cuando es un certificado parcial de estudios y si necesitas un duplicado de tu certificado son 245.86 pesos.",
 "¿necesito mas informacion para este tramite?","Si necesitas mas informacion puedes encontrarla en la pagina ofical en el apartado de estudiantes.",
-"","",
-"","",
